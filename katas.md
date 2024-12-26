@@ -17,3 +17,9 @@ const binaryArrayToNumber = arr => {
 
 ```
 
+# You're a square! [7 kyu] #3
+
+```js
+const isSquare = n => n >= 0 && Number.isInteger(Math.sqrt(n));
+```
+
