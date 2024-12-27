@@ -23,3 +23,12 @@ const binaryArrayToNumber = arr => {
 const isSquare = n => n >= 0 && Number.isInteger(Math.sqrt(n));
 ```
 
+# Simple multiplication [8 kyu] #4
+
+```js
+function simpleMultiplication(number) {
+return number % 2 == 0 ? number * 8 : number * 9;
+}
+
+```
+
