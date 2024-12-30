@@ -32,3 +32,12 @@ return number % 2 == 0 ? number * 8 : number * 9;
 
 ```
 
+# Beginner - Lost Without a Map [8 kyu] #5
+
+```js
+function maps(x){
+return x.map((x) => x * 2);
+}
+
+```
+
