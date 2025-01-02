@@ -41,3 +41,20 @@ return x.map((x) => x * 2);
 
 ```
 
+# Vowel Count [7 kyu] #6
+
+```js
+function getCount(str) {
+  //let vowels = ['a', 'e', 'i', 'o', 'u'];
+let count = 0;
+  const wovels = "aeiou";
+  for (let i = 0; i < str.length; i++) {
+    if (wovels.includes(str[i]))
+      count++;
+  } 
+  return count;
+  //return str.split('').filter((char) => vowels.includes(char)).length;
+  
+}
+```
+
