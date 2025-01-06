@@ -58,3 +58,19 @@ let count = 0;
 }
 ```
 
+# The Hashtag Generator [5 kyu] #7
+
+```js
+function generateHashtag(str) {
+  if (!str.trim()) return false;
+  
+  const hashtag = '#' + str
+    .trim()
+    .split(/\s+/)
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join('');
+  
+  return hashtag.length > 140 ? false : hashtag;
+}
+```
+
