@@ -74,3 +74,11 @@ function generateHashtag(str) {
 }
 ```
 
+# Convert a String to a Number! [8 kyu] #8
+
+```javascript
+function stringToNumber(str) {
+    return Number(str);
+}
+```
+
