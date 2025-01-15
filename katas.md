@@ -82,3 +82,15 @@ function stringToNumber(str) {
 }
 ```
 
+# Square(n) Sum [8 kyu] #9
+
+```javascript
+function squareSum(numbers) {
+    let sum = 0;
+    for (let num of numbers) {
+        sum += num * num;
+    }
+    return sum;
+}
+```
+
