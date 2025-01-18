@@ -94,3 +94,18 @@ function squareSum(numbers) {
 }
 ```
 
+# The Supermarket Queue [6 kyu] #10
+
+```javascript
+function queueTime(customers, n) {
+    const tills = new Array(n).fill(0);
+
+    for (let time of customers) {
+        const nextTill = tills.indexOf(Math.min(...tills));
+        tills[nextTill] += time;
+    }
+
+    return Math.max(...tills);
+}
+```
+
